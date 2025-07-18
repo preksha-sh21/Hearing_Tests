@@ -3856,7 +3856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _monoscopic: 0
   _sharpenType: 0
-  _enableDynamicResolution: 0
+  _enableDynamicResolution: 1
   minDynamicResolutionScale: 1
   maxDynamicResolutionScale: 1
   quest2MinDynamicResolutionScale: 0.7
@@ -8693,6 +8693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sanitizer Bottles
       objectReference: {fileID: 0}
+    - target: {fileID: 5901893356585517859, guid: 13107e744c85c2f48b84e229ff042f08, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 38968136e4167c349a4aadfa49d1a1cc, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1507767883509144192, guid: 13107e744c85c2f48b84e229ff042f08, type: 3}
@@ -10079,8 +10083,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 27db6a01bad5b814399b498b4a00f553, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1409825366}
   m_SourcePrefab: {fileID: 100100000, guid: 27db6a01bad5b814399b498b4a00f553, type: 3}
+--- !u!1 &1409825365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 27db6a01bad5b814399b498b4a00f553, type: 3}
+  m_PrefabInstance: {fileID: 1409825364}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1409825366
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409825365}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c45cc8e46b8b21948b337aafde5e0739, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1410647462
 GameObject:
   m_ObjectHideFlags: 0
@@ -11380,7 +11414,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 38968136e4167c349a4aadfa49d1a1cc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11419,8 +11453,8 @@ Transform:
   m_GameObject: {fileID: 1627035271}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.668, y: 0.9649, z: 0.986}
-  m_LocalScale: {x: 0.15608814, y: 0.033771228, z: 0.15608814}
+  m_LocalPosition: {x: 0.668, y: 0.9689, z: 0.986}
+  m_LocalScale: {x: 0.2, y: 0.04, z: 0.15608814}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -13656,15 +13690,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 48e7e6f11126f9845b2d5f3af123cbd9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.026020598
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48e7e6f11126f9845b2d5f3af123cbd9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.039136957
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48e7e6f11126f9845b2d5f3af123cbd9, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.039136957
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48e7e6f11126f9845b2d5f3af123cbd9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13672,7 +13706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48e7e6f11126f9845b2d5f3af123cbd9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96071583
+      value: 0.9612
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48e7e6f11126f9845b2d5f3af123cbd9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13706,6 +13740,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -147.386
       objectReference: {fileID: 0}
+    - target: {fileID: -8291344139572558249, guid: 48e7e6f11126f9845b2d5f3af123cbd9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 38968136e4167c349a4aadfa49d1a1cc, type: 2}
     - target: {fileID: 919132149155446097, guid: 48e7e6f11126f9845b2d5f3af123cbd9, type: 3}
       propertyPath: m_Name
       value: tuning_fork_cm_obj
