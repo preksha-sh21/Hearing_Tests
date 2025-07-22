@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mat
+  m_Name: sanitizer
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -115,13 +115,13 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.09420432, g: 0.21379572, b: 0.381132, a: 1}
-    - _Color: {r: 0.094204284, g: 0.21379569, b: 0.38113198, a: 1}
+    - _BaseColor: {r: 0.5043147, g: 0.6962329, b: 0.7283019, a: 1}
+    - _Color: {r: 0.50431466, g: 0.6962329, b: 0.7283019, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &6545586761877978789
+--- !u!114 &957660056767458141
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
