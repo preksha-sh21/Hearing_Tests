@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Rinne_Test.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/weber.unity
+    guid: 28d3af788bca4d5458c4cc1bb503bb06
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 314803ffa4913e44b9c0170a7acd1be6, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
